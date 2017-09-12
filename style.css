@@ -1,0 +1,24 @@
+#board {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.rect {
+	border: 1px solid #000;
+	height: 100px;
+	position: relative;
+	width: 200px;
+	z-index: 1;
+}
+
+.resize {
+	background-color: #000;
+	bottom: 0;
+	cursor: nwse-resize;
+	height: 10px;
+	position: absolute;
+	right: 0;
+	width: 10px;
+}
