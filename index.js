@@ -63,6 +63,7 @@ clear.addEventListener('click', () => {
 
 interact('.rect')
 	.draggable({
+		inertia: true,
 		onmove: window.dragMoveListener
 	})
 	.resizable({
